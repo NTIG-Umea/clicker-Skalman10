@@ -91,17 +91,17 @@ window.addEventListener('load', (event) => {
  */
 upgrades = [
   {
-    name: 'Arg gubbe',
+    name: 'Spade',
     cost: 10,
     amount: 1
   },
   {
-    name: 'Internettroll',
+    name: 'Potatisplockare',
     cost: 100,
     amount: 10
   },
   {
-    name: 'Twitterbot',
+    name: 'Traktor',
     cost: 1000,
     amount: 100
   }
@@ -132,7 +132,7 @@ function createCard(upgrade) {
   header.classList.add('title');
   const cost = document.createElement('p');
 
-  header.textContent = upgrade.name + ', +' + upgrade.amount + ' likes per sekund.';
+  header.textContent = upgrade.name + ', +' + upgrade.amount + ' potatisar per sekund.';
   cost.textContent = 'Köp för ' + upgrade.cost + ' likes';
 
   card.addEventListener('click', (e) => {
