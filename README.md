@@ -30,3 +30,4 @@ Vi kommer att skriva post mortem när vi är klara.
 
 Vi har tre veckor nu mellan sportlovet(10) och påsklovet(14).
 Redovisning + post mortem blir måndag vecka 15.
+## https://ntig-umea.github.io/clicker-Skalman10/
