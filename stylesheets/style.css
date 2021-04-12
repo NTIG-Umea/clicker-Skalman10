@@ -17,6 +17,10 @@ footer {
   border: none;
   outline: none;
 }
+#click:active {
+  width: 110%;
+  height: 110%;
+}
 
 #msgbox {
   width: 100%;
