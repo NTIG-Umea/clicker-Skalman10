@@ -133,7 +133,7 @@ function createCard(upgrade) {
   const cost = document.createElement('p');
 
   header.textContent = upgrade.name + ', +' + upgrade.amount + ' potatisar per sekund.';
-  cost.textContent = 'Köp för ' + upgrade.cost + ' likes';
+  cost.textContent = 'Köp för ' + upgrade.cost + ' potatisar';
 
   card.addEventListener('click', (e) => {
     if (money >= upgrade.cost) {
@@ -141,7 +141,7 @@ function createCard(upgrade) {
       moneyPerClick++;
       money -= upgrade.cost;
       upgrade.cost *= 1.5;
-      cost.textContent = 'Köp för ' + upgrade.cost + ' likes';
+      cost.textContent = 'Köp för ' + upgrade.cost + ' potatisar';
       moneyPerSecond += upgrade.amount;
       message('Grattis du har en ny följare!', 'success');
     } else {
